@@ -7,3 +7,4 @@ in regular C source files.
 
 ### Uploaded Data structures
 - `C/C++` Stack
+- `C/C++` Queue
