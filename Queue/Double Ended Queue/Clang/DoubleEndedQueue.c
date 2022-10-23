@@ -42,6 +42,7 @@ int dequeue(){
 
 	if (q.front && q.front == -1) {
 		printf("underflow\n");
+        return 0;
 	}
 	else if (q.front == q.rear) {
 		q.front = -1;
@@ -85,6 +86,7 @@ int dequeueFromRear(){
 
 	if (q.front && q.front == -1) {
 		printf("underflow\n");
+        return 0;
 	}
     else if (q.front == q.rear){
         q.front = -1;
