@@ -148,13 +148,10 @@ void remove(int val){
     }
     else{
         while(p->info != val){
+            q = p;
             p = p->next;
         }
-
-        while(q->next != p){
-            q = q->next;
-        }
-
+        
         q->next = p->next;
 
         delete p;
